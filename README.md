@@ -1,0 +1,2 @@
+# Web3Camp
+The GirlScript Foundation's WEB3CAMP initiative aims to increase global awareness of technological breakthroughs and opportunities. Our objective is to present and prepare our community for the future of the internet by holding web3 bootcamps around globe. Women and underrepresented groups will be given priority in this bootcamp, with 50% of the spots reserved. Our vision is to introduce and prepare our community for the future of the internet by conducting global boot camps on web3 technology.

@@ -1,0 +1,100 @@
+.workshop-section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.tabs {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-item {
+  border: 0.2rem solid #fff;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--flama-condensed);
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.tab-item.active {
+  background-color: #fff;
+  color: var(--blue);
+}
+
+.workshop {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: var(--poppins);
+  color: #fff;
+}
+
+.workshop .meaning {
+  font-size: 1.5rem;
+  width: 45%;
+  padding: 2rem 6rem 0 2rem;
+}
+
+.workshop .guidelines {
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.workshop .guidelines h2 {
+  font-family: var(--league-gothic);
+  font-size: 6rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  margin: 1rem auto 0rem auto;
+  margin-bottom: 2rem;
+}
+
+.workshop .guidelines h4 {
+  font-size: 2rem;
+  color: var(--purple);
+  margin: 0;
+}
+
+.workshop .guidelines ul {
+  margin-bottom: 2rem;
+}
+
+.workshop .guidelines ul li {
+  font-size: 1.6rem;
+}
+.in-person.workshop {
+  display: none;
+}
+
+footer {
+  position:static;
+}
+
+@media screen and (max-width: 700px) {
+  .workshop {
+    flex-direction: column;
+  }
+
+  .workshop .meaning,
+  .workshop .guidelines {
+    width: 100%;
+  }
+
+  .workshop .guidelines {
+    margin-top: 3rem;
+  }
+}

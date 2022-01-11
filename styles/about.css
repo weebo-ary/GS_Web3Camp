@@ -1,0 +1,30 @@
+.about-girlscript {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-girlscript hr {
+  width: 20%;
+}
+
+footer {
+  position: static;
+}
+
+.about-girlscript p {
+  color: #fff;
+  font-family: var(--poppins);
+  font-size: 2rem;
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-girlscript p {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+}
