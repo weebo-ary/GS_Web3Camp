@@ -429,12 +429,12 @@ section,
   font-weight: bolder;
 }
 
-/* .sponsors-silver p {
+.sponsors-silver p {
   font-family: var(--poppins);
   font-size: 2rem;
   position: relative;
   font-weight: bolder;
-} */
+}
 
 .sponsors p::after {
   position: absolute;
@@ -446,7 +446,7 @@ section,
   background-color: var(--purple);
 }
 
-/* .sponsors-silver p::after {
+.sponsors-silver p::after {
   
   position: absolute;
   content: "";
@@ -455,7 +455,7 @@ section,
   height: 0.4rem;
   width: 100%;
   background-color: var(--purple);
-} */
+}
 
 .sponsors img {
   width: 25rem;
